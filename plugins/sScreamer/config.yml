@@ -1,0 +1,418 @@
+# Available languages: (en - English, ru - Русский, ua - Український, pl - Polish)
+#
+# Доступные языки: (en - English, ru - Русский, ua - Український, pl - Polish)
+Language: en
+
+# Settings
+#
+# Настройки
+Settings:
+  # What helmet will be displayed on the screamer
+  # (Does not work for all mobs.)
+  # LEATHER_HELMET
+  # CHAINMAIL_HELMET
+  # IRON_HELMET
+  # GOLDEN_HELMET
+  # DIAMOND_HELMET
+  # NETHERITE_HELMET from version 1.16+
+  #
+  # Какой шлем будет отображаться у скримера
+  # (Не работает для всех мобов.)
+  # LEATHER_HELMET
+  # CHAINMAIL_HELMET
+  # IRON_HELMET
+  # GOLDEN_HELMET
+  # DIAMOND_HELMET
+  # NETHERITE_HELMET от версии 1.16+
+  Helmet-Mob: WITHER_SKELETON_SKULL
+  # What color will be displayed on the helmet of the screamer
+  # (Works only with leather armor LEATHER_HELMET)
+  # Website with RGB Colors - https://www.rapidtables.com/web/color/RGB_Color.html
+  # Screenshot of how to use colors to make them work here - https://prnt.sc/v2Zoc8i0DB62
+  #
+  # Какой цвет будет отображаться на шлеме у скримера
+  # (Работает только с кожаной броней LEATHER_HELMET)
+  # Сайт с RGB-Цветами - https://www.rapidtables.com/web/color/RGB_Color.html
+  # Скриншот как нужно использовать цвета чтобы они тут работали - https://prnt.sc/v2Zoc8i0DB62
+  Helmet-Mob-Color: 0,0,0
+  # What chestplate will be displayed on the screamer
+  # (Does not work for all mobs.)
+  # LEATHER_CHESTPLATE
+  # CHAINMAIL_CHESTPLATE
+  # IRON_CHESTPLATE
+  # GOLDEN_CHESTPLATE
+  # DIAMOND_CHESTPLATE
+  # NETHERITE_CHESTPLATE from version 1.16+
+  #
+  # Какой нагрудник будет отображаться у скримера
+  # (Не работает для всех мобов.)
+  # LEATHER_CHESTPLATE
+  # CHAINMAIL_CHESTPLATE
+  # IRON_CHESTPLATE
+  # GOLDEN_CHESTPLATE
+  # DIAMOND_CHESTPLATE
+  # NETHERITE_CHESTPLATE от версии 1.16+
+  ChestPlate-Mob: LEATHER_CHESTPLATE
+  # What color will be displayed on the chestplate of the screamer
+  # (Works only with leather armor LEATHER_CHESTPLATE)
+  # Website with RGB Colors - https://www.rapidtables.com/web/color/RGB_Color.html
+  # Screenshot of how to use colors to make them work here - https://prnt.sc/v2Zoc8i0DB62
+  #
+  # Какой цвет будет отображаться на нагруднике у скримера
+  # (Работает только с кожаной броней LEATHER_CHESTPLATE)
+  # Сайт с RGB-Цветами - https://www.rapidtables.com/web/color/RGB_Color.html
+  # Скриншот как нужно использовать цвета чтобы они тут работали - https://prnt.sc/v2Zoc8i0DB62
+  ChestPlate-Mob-Color: 0,0,0
+  # What leggings will be displayed on the screamer
+  # (Does not work for all mobs.)
+  # LEATHER_LEGGINGS
+  # CHAINMAIL_LEGGINGS
+  # IRON_LEGGINGS
+  # GOLDEN_LEGGINGS
+  # DIAMOND_LEGGINGS
+  # NETHERITE_LEGGINGS from version 1.16+
+  #
+  # Какие поножи будут отображаться у скримера
+  # (Не работает для всех мобов.)
+  # LEATHER_LEGGINGS
+  # CHAINMAIL_LEGGINGS
+  # IRON_LEGGINGS
+  # GOLDEN_LEGGINGS
+  # DIAMOND_LEGGINGS
+  # NETHERITE_LEGGINGS от версии 1.16+
+  Leggings-Mob: LEATHER_LEGGINGS
+  # What color will be displayed on the leggings of the screamer
+  # (Works only with leather armor LEATHER_LEGGINGS)
+  # Website with RGB Colors - https://www.rapidtables.com/web/color/RGB_Color.html
+  # Screenshot of how to use colors to make them work here - https://prnt.sc/v2Zoc8i0DB62
+  #
+  # Какой цвет будет отображаться на поножах у скримера
+  # (Работает только с кожаной броней LEATHER_LEGGINGS)
+  # Сайт с RGB-Цветами - https://www.rapidtables.com/web/color/RGB_Color.html
+  # Скриншот как нужно использовать цвета чтобы они тут работали - https://prnt.sc/v2Zoc8i0DB62
+  Leggings-Mob-Color: 0,0,0
+  # What boots will be displayed on the screamer
+  # (Does not work for all mobs.)
+  # LEATHER_BOOTS
+  # CHAINMAIL_BOOTS
+  # IRON_BOOTS
+  # GOLDEN_BOOTS
+  # DIAMOND_BOOTS
+  # NETHERITE_BOOTS from version 1.16+
+  #
+  # Какие ботинки будут отображаться у скримера
+  # (Не работает для всех мобов.)
+  # LEATHER_BOOTS
+  # CHAINMAIL_BOOTS
+  # IRON_BOOTS
+  # GOLDEN_BOOTS
+  # DIAMOND_BOOTS
+  # NETHERITE_BOOTS от версии 1.16+
+  Boots-Mob: LEATHER_BOOTS
+  # What color will be displayed on the boots of the screamer
+  # (Works only with leather armor LEATHER_BOOTS)
+  # Website with RGB Colors - https://www.rapidtables.com/web/color/RGB_Color.html
+  # Screenshot of how to use colors to make them work here - https://prnt.sc/v2Zoc8i0DB62
+  #
+  # Какой цвет будет отображаться на ботинках у скримера
+  # (Работает только с кожаной броней LEATHER_BOOTS)
+  # Сайт с RGB-Цветами - https://www.rapidtables.com/web/color/RGB_Color.html
+  # Скриншот как нужно использовать цвета чтобы они тут работали - https://prnt.sc/v2Zoc8i0DB62
+  Boots-Mob-Color: 0,0,0
+  # What item will be displayed in the screamer's Right Hand - https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
+  # (Item display does not work for all mobs.)
+  #
+  # Какой предмет будет отображаться у скримера в Правой руке - https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
+  # (Отображение предмета работает не у всех мобов)
+  Main-Hand-Item-Mob: DIAMOND_SWORD
+  # What item will be displayed in the screamer's Left Hand - https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
+  # (Item display does not work for all mobs.)
+  #
+  # Какой предмет будет отображаться у скримера в Левой руке - https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
+  # (Отображение предмета работает не у всех мобов)
+  Off-Hand-Item-Mob: SHIELD
+  # If you do not want the screamer to hold an item in the Right Hand, set it to false
+  #
+  # Если вы не хотите чтобы у скримера в Правой руке, не было предмета поставьте false
+  Main-Hand-Item-Mob-Enabled: false
+  # If you do not want the screamer to hold an item in the Left Hand, set it to false
+  #
+  # Если вы не хотите чтобы у скримера в Левой руке, не было предмета поставьте false
+  Off-Hand-Item-Mob-Enabled: false
+  # If you do not want the screamer to have a helmet, set it to false
+  #
+  # Если вы не хотите чтобы у скримера, не было шлема поставьте false
+  Helmet-Mob-Enabled: true
+  # If you do not want the screamer to have a chestplate, set it to false
+  #
+  # Если вы не хотите чтобы у скримера, не было нагрудника поставьте false
+  ChestPlate-Mob-Enabled: true
+  # If you do not want the screamer to have leggings, set it to false
+  #
+  # Если вы не хотите чтобы у скримера, не было понож поставьте false
+  Leggings-Mob-Enabled: false
+  # If you do not want the screamer to have boots, set it to false
+  #
+  # Если вы не хотите чтобы у скримера, не было ботинок поставьте false
+  Boots-Mob-Enabled: false
+  # Invisibility for the screamer, set to true to hide the screamer, false to make it visible
+  #
+  # Невидимость для скримера установите true, чтобы скрыть скримера, false, чтобы включить видимость для скримера
+  Set-Invisible: true
+  # Specify here how long the screamer will be removed in seconds, Default: 3
+  #
+  # Укажите здесь через какое время скример будет удален в секундах, По умолчанию: 3
+  Delete-Entity-Time: 3
+  # Specify the type of mob to spawn. By default, it is set to armor stand - https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/entity/EntityType.html
+  #
+  # Укажите здесь тип моба, который будет спавниться. По умолчанию стоит стойка для брони - https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/entity/EntityType.html
+  Custom-Mob-Type: ARMOR_STAND
+  # Whether to show the name above the screamer, set to false to disable, true to enable
+  #
+  # Нужно ли показывать имя у скримера установите false, чтобы отключить, true, чтобы включить
+  Custom-Mob-Name-Enabled: true
+  # At what distance should the screamer spawn from the player
+  #
+  # На каком расстоянии нужно заспавнить скримера от игрока
+  Spawn-Distance-Mob: 2.0
+  # How much to raise or lower the screamer, modify the Y-Operator parameter: '+' for upward movement,
+  # '-' for downward movement
+  #
+  # На сколько нужно поднять вверх или в низ, нужно изменять параметр Y-Operator: '+' когда там стоит + скримера будет вверху
+  # если '-' скримера будет внизу
+  Y-Off-Set-Mob: 0.3
+  # Where to lift or lower the screamer, available values: - and +
+  # + Upward
+  # - Downward
+  #
+  # Куда нужно поднять или упустить скримера доступные значения - и +
+  # + Вверх
+  # - В низ
+  Y-Operator: +
+  # Should effects be applied to the player
+  #
+  # Нужно ли выдавать игроку эффекты
+  Effect-Give-Player-Enabled: true
+  # Specify the names of the effects that will be applied to the player
+  # You can specify (darkness from 1.19+ for darkness) or blindness
+  # Example: - 'blindness:10:0'
+  # blindness - This is the effect that will be applied to the player
+  # 10 - This is how long the effect will last on the player in seconds (you can use your own number)
+  # 0 - This is the strength of the effect for the player
+  #
+  # Укажите здесь названия эффектов которые будут применены к игроку
+  # Можно указать (darkness от 1.19+ тьма) или blindness - Слепота
+  # Пример: - 'blindness: 10: 0'
+  # blindness - Это эффект, который будет применен к игроку
+  # 10 - Это сколько в секундах будет длиться эффект у игрока (Можно свое число)
+  # 0 - Это сила эффекта для игрока
+  Effect-Type-List:
+  - 'blindness: 4: 0'
+  #- 'darkness: 4: 0'
+  # Should random messages be sent to the second player?
+  #
+  # Нужно ли включать рандомные сообщения второму игроку?
+  Message-Random-List-Enabled: true
+  # Should the resource pack with sounds be downloaded when the server is started?
+  # By default, the file is downloaded to the .plugins/sScreamer/ResourcePackSounds/DownloadDefaultSound.zip folder
+  #
+  # Нужно ли скачивать ресурс пак со звуком при включении сервера?
+  # По умолчанию файл скачивается в папку .plugins/sScreamer/ResourcePackSounds/DownloadDefaultSound.zip
+  Download-File-ResourcePack-Sound-OnStart-Plugin-Enabled: true
+  # If you want the player to hear sounds, set the parameter to "true".
+  # If you do not want the player to hear sounds, set the parameter to "false".
+  #
+  # Если вы хотите, чтобы игрок слышал звуки, установите параметр на "true".
+  # Если вы не хотите, чтобы игрок слышал звуки, установите параметр на "false".
+  Play-Sound-Player-Enabled: true
+  # Here you can set your own sound from the list of available sounds.
+  # The list of available sounds can be found at: https://helpch.at/docs/1.19.3/org/bukkit/Sound.html
+  #
+  # Здесь вы можете установить свой звук из списка доступных звуков.
+  # Список доступных звуков можно найти по ссылке: https://helpch.at/docs/1.19.3/org/bukkit/Sound.html
+  Sound: ENTITY_GHAST_SCREAM
+  # The "volume" parameter controls the sound volume.
+  # A value of "1.0" means maximum sound volume,
+  # and values less than "1.0" mean quieter sounds.
+  #
+  # Параметр "volume" отвечает за громкость звука.
+  # Значение "1.0" означает максимальную громкость звука,
+  # а значения менее "1.0" означают более тихие звуки.
+  Volume: 1.0
+  # The "pitch" parameter controls the sound pitch.
+  # A value of "1.0" means normal sound pitch,
+  # values less than "1.0" mean lower pitch,
+  # and values greater than "1.0" mean higher pitch.
+  #
+  # Параметр "pitch" отвечает за тон звука.
+  # Значение "1.0" означает нормальный тон звука,
+  # а значения менее "1.0" означают более низкий тон,
+  # а значения больше "1.0" - более высокий тон.
+  Pitch: 1.0
+  # This parameter allows you to control sound playback using a resource pack.
+  # A resource pack is a file that modifies the audio and graphical elements of the game, adding new textures and sounds.
+  # If you want your sounds to be played using a resource pack, set this parameter to "true".
+  # In this case, for the sounds to work, players must have the corresponding resource pack installed.
+  #
+  # Этот параметр позволяет вам управлять воспроизведением звуков с использованием ресурс-пака.
+  # Ресурс-пак - это файл, который изменяет аудио и графические элементы игры, добавляя новые текстуры и звуки.
+  # Если вы хотите, чтобы ваши звуки воспроизводились с помощью ресурс-пака, установите этот параметр на "true".
+  # В этом случае, для того чтобы звуки работали, у игроков должен быть установлен соответствующий ресурс-пак.
+  Resource-Pack-Play-Sound-Enabled: false
+  # In this section, you can specify the name of the sound you want to use from your resource pack.
+  # Sound files are typically organized in a hierarchical structure to provide logical organization and ease of management.
+  # In this case, you need to specify the path to the sound file within your resource pack.
+  # "minecraft" is the domain (provider) of the resource pack.
+  # "main.sounds" is the path to the sound file within the domain. This can be a folder or path where the sound file is stored within the resource pack.
+  # If your sound is located in the "sounds" subfolder of your resource pack and is named "mysound.ogg," the path would look like "minecraft:sounds/mysound.ogg."
+  # Note that the format and structure of the sound name depend on the specific system or plugin you are using.
+  # Make sure the path is correctly specified according to your system and resource pack structure.
+  #
+  # В данном разделе вы можете указать название звука, который вы хотите использовать из вашего ресурс-пака.
+  # Звуковые файлы обычно организованы в иерархической структуре, чтобы обеспечить логическую организацию и
+  # легкость в управлении. В данном случае, вам нужно указать путь к звуковому файлу внутри вашего ресурс-пака.
+  # minecraft - это имя домена (поставщика) ресурс-пака.
+  # main.sounds - это путь к звуковому файлу внутри домена. Это может быть папка или путь, где хранится звуковой файл внутри ресурс-пака.
+  # Если ваш звук находится в подпапке sounds вашего ресурс-пака и называется mysound.ogg, то путь будет выглядеть так minecraft:sounds/mysound.ogg.
+  # Обратите внимание, что формат и структура названия звука зависит от конкретной системы или плагина, которую вы используете.
+  # Убедитесь, что путь указан корректно с учетом вашей системы и структуры ресурс-пака.
+  Resource-Pack-Sound: minecraft:main.sounds
+  # Select the sound category. Available categories:
+  # MASTER - Main category, used to control the overall volume of all sounds.
+  # The volume of this category affects all other categories.
+  # MUSIC - Musical sounds, such as music playback and melodies.
+  # RECORDS - Sounds of record discs.
+  # WEATHER - Sounds of weather effects such as rain and thunder.
+  # BLOCKS - Sounds related to blocks, e.g., destruction, placement, or walking on blocks.
+  # HOSTILE - Sounds of hostile creatures like skeletons, zombies, spiders, etc.
+  # NEUTRAL - Sounds of neutral creatures like villagers, llamas, etc.
+  # PLAYERS - Sounds of players, including AI players.
+  # AMBIENT - Environmental sounds such as animals, nature, and other background sounds.
+  # VOICE - Voice chat sounds.
+  # ENTITY - General category for sounds related to entities.
+  #
+  # Выберите категорию звука. Доступные категории:
+  # MASTER - Главная категория, используется для управления общей громкостью всех звуков,
+  # громкость данной категории влияет на все остальные категории.
+  # MUSIC - Музыкальные звуки, такие как воспроизведение музыки и мелодий.
+  # RECORDS - Звуки музыкальных дисков (record discs).
+  # WEATHER - Звуки погодных эффектов, таких как дождь, гроза и т.д.
+  # BLOCKS - Звуки связанные с блоками, например, разрушение, размещение или шаги по блокам.
+  # HOSTILE - Звуки враждебных существ, например, скелетов, зомби, пауков и т.д.
+  # NEUTRAL - Звуки нейтральных существ, например, деревенских жителей, лам и т.д.
+  # PLAYERS - Звуки игроков, включая игроков искусственного интеллекта.
+  # AMBIENT - Звуки окружения, такие как животные, природа и другие фоновые звуки.
+  # VOICE - Звуки голосового чата.
+  # ENTITY - Общая категория для звуков, связанных с сущностями.
+  Resource-Pack-Sound-Category: MASTER
+  # The "volume" parameter controls the sound volume.
+  # A value of "1.0" indicates maximum sound volume,
+  # and values less than "1.0" indicate quieter sounds.
+  #
+  # Параметр "volume" отвечает за громкость звука.
+  # Значение "1.0" означает максимальную громкость звука,
+  # а значения менее "1.0" означают более тихие звуки.
+  Resource-Pack-Volume: 1.0
+  # The "pitch" parameter controls the sound pitch.
+  # A value of "1.0" indicates normal sound pitch,
+  # values less than "1.0" indicate a lower pitch,
+  # and values greater than "1.0" indicate a higher pitch.
+  #
+  # Параметр "pitch" отвечает за тон звука.
+  # Значение "1.0" означает нормальный тон звука,
+  # а значения менее "1.0" означают более низкий тон,
+  # а значения больше "1.0" - более высокий тон.
+  Resource-Pack-Pitch: 1.0
+  # This parameter determines whether particles are enabled. If set to true, particles will be created.
+  #
+  # Этот параметр определяет, включены ли частицы. Если он установлен на true, то будет cоздаваться частицы.
+  Particle-Enabled: true
+  # This parameter defines the type of particle to be used.
+  # In this case, the particle type is set to DRAGON_BREATH, which means dragon breath particles will be created.
+  #
+  # Этот параметр определяет тип частиц, который будет использоваться.
+  # В данном случае, тип частиц установлен на DRAGON_BREATH, что
+  # означает, что будут создаваться частицы дыхания дракона.
+  Particle-Type: DRAGON_BREATH
+  # This parameter specifies the number of particles to be created.
+  # In this case, 2 particles will be created.
+  #
+  # Этот параметр определяет количество частиц, которые будут созданы.
+  # В данном случае, будет создано 2 частицы.
+  Particle-Count: 2
+  # This parameter sets the offset on the X-axis for each particle.
+  # A value of 0.5 means the particles will be shifted 0.5 blocks relative to the starting point.
+  #
+  # Этот параметр задает смещение по оси X для каждой частицы.
+  # Значение 0.5 означает, что частицы будут сдвинуты на 0.5 блока относительно начальной точки.
+  Particle-OffsetX: 0.5
+  # This parameter sets the offset on the Y-axis for each particle.
+  # A value of 0.5 means the particles will be shifted 0.5 blocks upward relative to the starting point.
+  #
+  # Этот параметр задает смещение по оси Y для каждой частицы.
+  # Значение 0.5 означает, что частицы будут сдвинуты на 0.5 блока вверх относительно начальной точки.
+  Particle-OffsetY: 0.5
+  # This parameter sets the offset on the Z-axis for each particle.
+  # A value of 0.5 means the particles will be shifted 0.5 blocks forward relative to the starting point.
+  #
+  # Этот параметр задает смещение по оси Z для каждой частицы.
+  # Значение 0.5 означает, что частицы будут сдвинуты на 0.5 блока вперед относительно начальной точки.
+  Particle-OffsetZ: 0.5
+  # This parameter defines an additional parameter for particles that can affect their appearance or behavior.
+  # A value of 0.2 may control the size or transparency of the particles.
+  #
+  # Этот параметр определяет дополнительный параметр для частиц, который может влиять на их внешний вид или поведение.
+  # Значение 0.2 может контролировать размер или прозрачность частиц.
+  Particle-Extra: 0.2
+  # Delay for command execution in various formats.
+  # You can use one of the following formats:
+  #  - 5d (5 days)
+  #  - 5h (5 hours)
+  #  - 5m (5 minutes)
+  #  - 5s (5 seconds)
+  #
+  # Задержка на выполнение команды в различных форматах
+  # Вы можете использовать один из следующих форматов:
+  #  - 5d (5 дней)
+  #  - 5h (1 часов)
+  #  - 5m (1 минут)
+  #  - 5s (5 секунд)
+  Cooldown-Command: 1h
+  # You cannot summon a screamer for players in this list using the -bypass argument in the command.
+  #
+  # Нельзя призвать скримера для игроков, которые находятся в этом списке, и используя аргумент -bypass в команде.
+  No-Spawn-Players-Entity-Use-Command-Arg:
+  - Snon
+  # If set to true, you will be able to summon a screamer even when players are in the No-Spawn-Players-Entity-Use-Command-Arg list
+  # from the console.
+  # If set to false, you cannot summon a screamer for players in the No-Spawn-Players-Entity-Use-Command-Arg list
+  # from the console.
+  #
+  # Если стоит true, то можно будет призвать скримера даже, когда игроки находятся в списке No-Spawn-Players-Entity-Use-Command-Arg:
+  # из консоли.
+  # Если стоит false, то нельзя призвать скримера для игроков, которые находятся в списке No-Spawn-Players-Entity-Use-Command-Arg:
+  # из консоли.
+  Enable-Bypass-For-Players-Only: false
+  # Automatic Screamer Spawn Settings
+  # If set to true, a screamer will automatically spawn for a random online player.
+  # If set to false, automatic screamer spawning will be disabled.
+  #
+  # Настройки автоматического появления скримера
+  # Если установлено true, то скример будут автоматически появляться для рандомного онлайн игрока.
+  # Если установлено в false, автоматическое появление скримера будет отключено.
+  Automatic-Spawn-Screamer-Time-Enabled: true
+  # Time in seconds between the automatic appearance of the screamer for a random online player.
+  # For example, if the value is set to (in seconds) 3600, a random player will be selected
+  # every 1 hour, and a screamer will appear for them.
+  #
+  # Время в секундах между автоматическим появлением скримера для рандомного онлайн игрока.
+  # Например, если установлено значение (в секундах) 3600, то каждый 1 час будет выбран
+  # случайный игрок, и для него появится скример.
+  Automatic-Spawn-Screamer-Time: 3600
+  # Players with disabled automatic jump scare triggering
+  # Specify the list of players for whom automatic jump scare triggering will be disabled.
+  #
+  # Игроки, для которых отключено автоматическое появление скримера
+  # Укажите список игроков, для которых автоматическое появление скримера будет отключено.
+  No-Automatic-Spawn-Screamer-Players:
+  - Snon

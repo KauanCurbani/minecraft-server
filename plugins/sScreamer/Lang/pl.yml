@@ -1,0 +1,163 @@
+
+# Wsparcie dla kolorów w formacie &4 i RGB {#000000} działa od wersji 1.16+
+
+# Komunikaty
+Messages:
+  # Tutaj możesz określić własne imię dla straszydła. Imię będzie widoczne nad głową straszydła.
+  Custom-Mob-Name: '&4&l&k&n000 &c&l&nBOOOOOOO!!!!!! &4&l&k&n000'
+  # Tutaj możesz napisać dowolne wiadomości.
+  # Dodatkowo można tutaj używać \n do przenoszenia tekstu na następną linię. Na przykład: Cześć\nHej, słowo "Hej" będzie już na drugiej linii.
+  Message-Random-List:
+  - '&c&l[Myśli] - &fChyba wystarczy Minecrafta na dzisiaj.'
+  - '&c&l[Myśli] - &fCo?! Skąd to się wzięło?'
+  - '&c&l[Myśli] - &fOch, aż się przestraszyłem! Co to było?'
+  - '&c&l[Myśli] - &fDobrze, to był tylko sen... mam nadzieję.'
+  - '&c&l[Myśli] - &fChyba usłyszałem coś za swoimi plecami...'
+  - '&c&l[Myśli] - &fKtoś wyszedł zdenerwowany, co się stało?'
+  - '&c&l[Myśli] - &fNa razie... hei, co to jest?'
+  - '&c&l[Myśli] - &fDźwięki za oknem zawsze mnie przerażają...'
+  - '&c&l[Myśli] - &fTo może być wiatr, albo coś innego...'
+  - '&c&l[Myśli] - &fCoś na pewno się stało...'
+  - '&c&l[Myśli] - &fZ tym dźwiękiem muszę dowiedzieć się, co się dzieje.'
+  - '&c&l[Myśli] - &fTrzask sprawił, że aż zaskoczyłem... pewnie creeper.'
+  - '&c&l[Myśli] - &fNagle coś przemknęło obok...'
+  - '&c&l[Myśli] - &fTajemnicze dźwięki podnoszą wyobraźnię.'
+  - '&c&l[Myśli] - &fTe dźwięki pozostaną w mojej pamięci... co to było?'
+  - '&c&l[Myśli] - &fNic nadzwyczajnego, chyba... ale czemu jestem taki napięty?'
+  - '&c&l[Myśli] - &fWszystko wokół jest takie tajemnicze, jakby coś ważnego było ukryte.'
+  - '&c&l[Myśli] - &fDziwnie, ale czuję, że ktoś na mnie patrzy.'
+  - '&c&l[Myśli] - &fNie mogę zrozumieć, skąd dochodzą te dziwne szmery.'
+  - '&c&l[Myśli] - &fMój kręgosłup natychmiast pokrył się gęsią skórką... trzeba być
+    czujnym.'
+  - '&c&l[Myśli] - &fNiezwykle cicho... zbyt cicho, aby się uspokoić.'
+  - '&c&l[Myśli] - &fPrzeźroczyste cienie suną wokół... czy tylko mi się wydaje?'
+  - '&c&l[Myśli] - &fDźwięki jakby z innego świata... czyżby moja wyobraźnia?'
+  - '&c&l[Myśli] - &fMoje nerwy są na skraju, to na pewno coś nietypowego.'
+  - '&c&l[Myśli] - &fCoś jest w powietrzu, co sprawia, że trzymam oddech...'
+  - '&c&l[Myśli] - &fNagle świat się zmienił... czy to iluzja?'
+  - '&c&l[Myśli] - &fMój puls przyspiesza... co to może znaczyć?'
+  - '&c&l[Myśli] - &fNie mogę się pozbyć uczucia, że nie jestem tu sam.'
+  - '&c&l[Myśli] - &fStrach i ciekawość miesza się w jedno...'
+  - '&c&l[Myśli] - &fOstrożność podpowiada, że lepiej być czujnym.'
+  - '&c&l[Myśli] - &fŚwiat wokół mnie jakby trzymał oddech, w oczekiwaniu...'
+  - '&c&l[Myśli] - &fNie mogę sobie odmówić uczucia, że jestem częścią czegoś większego.'
+  - '&c&l[Myśli] - &fPrzesłanie przechodzi przez dźwięki... ale jakie dokładnie?'
+  - '&c&l[Myśli] - &fSymfonia dźwięków natury ukrywa tajemnice...'
+  - '&c&l[Myśli] - &fMoja intuicja podpowiada, że lepiej być gotowym na wszystko.'
+  - '&c&l[Myśli] - &fTen moment jakby zwolnił z powodu dźwięków wokół.'
+  - '&c&l[Myśli] - &fZaskoczył mnie dziwny dźwięk, ale co to mogło być?'
+  - '&c&l[Myśli] - &fDźwięki przenikają przez świadomość, zostawiając ślad w duszy...'
+  - '&c&l[Myśli] - &fChyba warto podejść bliżej i zobaczyć to własnymi oczami.'
+  - '&c&l[Myśli] - &fCoś podpowiada mi, że te dźwięki są związane z tajemnicą.'
+  # Wiadomości o używaniu komendy
+  Use-Command-Message:
+  - ''
+  - '&c&l[sScreamer] - &fUżycie: &e/scream <gracz>'
+  - ''
+  # Wiadomości, gdy gracz nie został znaleziony na serwerze
+  Player-Not-Found-Message:
+  - ''
+  - '&c&l[sScreamer] - &fGracz &e%player% &fnie został znaleziony!'
+  - ''
+  # Wiadomości, gdy gracz już posiada straszydła
+  Already-Spawn-Entity-Message:
+  - ''
+  - '&c&l[sScreamer] - &fGracza &e%player% &fjuż przerażają!'
+  - ''
+  # Wiadomości, gdy gracz nie ma uprawnień do przywołania straszydła dla innego gracza
+  Already-Spawn-Entity-Bypass-Message:
+  - ''
+  - '&c&l[sScreamer] - &fDla gracza &e%player% &fnie można przywołać straszydła! Użyj
+    &e-bypass'
+  - ''
+  # Wiadomości, gdy gracz nie ma uprawnień do użycia -bypass
+  Already-Spawn-Entity-Args-Bypass-Message:
+  - ''
+  - '&c&l[sScreamer] - &fNie masz uprawnień do użycia &e-bypass'
+  - ''
+  # Wiadomości, gdy straszydło zostało przywołane dla gracza
+  Spawn-Entity-Message:
+  - ''
+  - '&c&l[sScreamer] - &fPrzestraszyłeś gracza &e%player%'
+  - ''
+  # Wiadomości, gdy podany rodzaj moba jest niepoprawny
+  Entity-Type-Not-Found-Message:
+  - ''
+  - '&c&l[sScreamer] - Podano niepoprawny rodzaj moba. Podano: %mob-type%'
+  - ''
+  # Wiadomość, która zostanie wysłana do nadawcy komendy
+  # po pomyślnym przeładowaniu konfiguracji.
+  Reload-Message:
+  - ''
+  - '&a[sScreamer] - Konfiguracja została przeładowana!'
+  - ''
+  # Wiadomość, która zostanie wysłana do nadawcy komendy,
+  # jeśli nie ma uprawnień do użycia komendy przeładowania.
+  Reload-No-Permission-Message:
+  - ''
+  - '&c&l[sScreamer] - &fNie masz uprawnień do użycia tej komendy!'
+  - ''
+  # Wiadomość, która zostanie wysłana do nadawcy komendy,
+  # jeśli nie ma uprawnień do użycia komendy przywołania straszydła.
+  No-Permission-Message:
+  - ''
+  - '&c&l[sScreamer] - &fNie masz uprawnień do użycia tej komendy!'
+  - ''
+  # Wiadomość, która zostanie wyświetlona, gdy gracz spróbuje użyć argumentu -bypass na innym graczu, który jest chroniony w konfiguracji.
+  No-Spawn-Player-Entity-Use-Command-Arg-Message:
+  - ''
+  - '&c&l[sScreamer] - &cGracz &e%player% &cjest chroniony przed argumentem &e-bypass
+    &cw komendzie!'
+  - ''
+  # Komunikat o włączeniu wtyczki
+  Plugin-Enabled-Message:
+  - ''
+  - '&c&l[sScreamer] &8- &aWtyczka włączona! %mc% ms'
+  - '&c&l[sScreamer] &8- &aWersja serwera: &b%server_version%'
+  - '&c&l[sScreamer] &8- &aWersja Java: &b%java_version_server% &8| &aHost: &b%os_version%'
+  - ''
+  # Komunikat o wyłączeniu wtyczki
+  Plugin-Disabled-Message:
+  - ''
+  - '&c&l[sScreamer] &8- &cWtyczka wyłączona! %mc% ms'
+  - ''
+  # Wiadomość o tym, że gracz ma opóźnienie na użycie komendy
+  # Określa format wiadomości o pozostałym czasie do zakończenia akcji.
+  # Użyj następujących zmiennych do wstawienia czasu:
+  #   - %days%: Ilość dni.
+  #   - %daysLabel%: Tekstowa reprezentacja dni (1 dzień, 2 dni, 5 dni).
+  #   - %hours%: Ilość godzin.
+  #   - %hoursLabel%: Tekstowa reprezentacja godzin (1 godzina, 2 godziny, 5 godzin).
+  #   - %minutes%: Ilość minut.
+  #   - %minutesLabel%: Tekstowa reprezentacja minut (1 minuta, 2 minuty, 5 minut).
+  #   - %seconds%: Ilość sekund.
+  #   - %secondsLabel%: Tekstowa reprezentacja sekund (1 sekunda, 2 sekundy, 5 sekund).
+  Cooldown-Message:
+  - ''
+  - '&c&l[sScreamer] - &fPoczekaj jeszcze &e%days% %daysLabel% %hours% %hoursLabel%
+    %minutes% %minutesLabel% %seconds% %secondsLabel% &fprzed ponownym użyciem komendy.'
+  - ''
+  # Tekstowa reprezentacja "dzień", gdy pozostaje jeden dzień.
+  Label-Day-1: dzień
+  # Tekstowa reprezentacja "dni", gdy pozostają dwa dni.
+  Label-Days-2: dni
+  # Tekstowa reprezentacja "dni", gdy pozostaje więcej niż dwa dni.
+  Label-Days-3: dni
+  # Tekstowa reprezentacja "godzina", gdy pozostaje jedna godzina.
+  Label-Hour-1: godzina
+  # Tekstowa reprezentacja "godziny", gdy pozostają dwie godziny.
+  Label-Hours-2: godziny
+  # Tekstowa reprezentacja "godzin", gdy pozostaje więcej niż dwie godziny.
+  Label-Hours-3: godzin
+  # Tekstowa reprezentacja "minuta", gdy pozostaje jedna minuta.
+  Label-Minute-1: minuta
+  # Tekstowa reprezentacja "minuty", gdy pozostają dwie minuty.
+  Label-Minutes-2: minuty
+  # Tekstowa reprezentacja "minut", gdy pozostaje więcej niż dwie minuty.
+  Label-Minutes-3: minut
+  # Tekstowa reprezentacja "sekunda", gdy pozostaje jedna sekunda.
+  Label-Second-1: sekunda
+  # Tekstowa reprezentacja "sekundy", gdy pozostają dwie sekundy.
+  Label-Seconds-2: sekundy
+  # Tekstowa reprezentacja "sekund", gdy pozostaje więcej niż dwie sekundy.
+  Label-Seconds-3: sekund

@@ -1,0 +1,178 @@
+
+# Support for colors in the format &4 and RGB {#000000} works from 1.16+
+
+# Messages
+Messages:
+  # Here you can specify a name for the screamer. The name will appear above the screamer's head.
+  Custom-Mob-Name: '&4&l&k&n000 &c&l&nBOOOOOOOOOO!!!!!! &4&l&k&n000'
+  # Here you can write any messages.
+  # Line breaks using \n also work here. For example: Hello\nHi, the word "Hi" will be on the second line.
+  Message-Random-List:
+  - '&c&l[Thoughts] - &fI think I''ve had enough Minecraft for today.'
+  - '&c&l[Thoughts] - &fWhat?! Where did that come from?'
+  - '&c&l[Thoughts] - &fOuch, that gave me a start! What was that?'
+  - '&c&l[Thoughts] - &fOkay, that was a dream... I hope.'
+  - '&c&l[Thoughts] - &fI think I heard something behind me...'
+  - '&c&l[Thoughts] - &fSomeone came out looking excited, what happened?'
+  - '&c&l[Thoughts] - &fFor now... hey, what''s that?'
+  - '&c&l[Thoughts] - &fThe sounds outside always creep me out...'
+  - '&c&l[Thoughts] - &fIt''s either the wind, or something else...'
+  - '&c&l[Thoughts] - &fSomething definitely happened...'
+  - '&c&l[Thoughts] - &fWith that sound, I should find out what''s going on.'
+  - '&c&l[Thoughts] - &fThe crackling made me jump... probably another creeper.'
+  - '&c&l[Thoughts] - &fSuddenly something fleeting passed by...'
+  - '&c&l[Thoughts] - &fMysterious sounds stimulate my imagination.'
+  - '&c&l[Thoughts] - &fThese sounds stay in my memory... what was that?'
+  - '&c&l[Thoughts] - &fNothing unusual, probably... but why am I so tense?'
+  - '&c&l[Thoughts] - &fEverything around me is so mysterious, as if something important
+    is hidden.'
+  - '&c&l[Thoughts] - &fStrange, but I feel like someone''s watching me.'
+  - '&c&l[Thoughts] - &fI can''t understand where these strange noises are coming from.'
+  - '&c&l[Thoughts] - &fMy spine instantly tingled... I need to stay alert.'
+  - '&c&l[Thoughts] - &fUnusually quiet... too quiet for my comfort.'
+  - '&c&l[Thoughts] - &fGhostly shadows glide around... was it just my imagination?'
+  - '&c&l[Thoughts] - &fThe sounds seem otherworldly... or is it just me?'
+  - '&c&l[Thoughts] - &fMy nerves are on edge, this is definitely unusual.'
+  - '&c&l[Thoughts] - &fThere''s something in the air that made me hold my breath...'
+  - '&c&l[Thoughts] - &fIt''s as if the world suddenly changed... or is it an illusion?'
+  - '&c&l[Thoughts] - &fMy pulse quickened... what does it mean?'
+  - '&c&l[Thoughts] - &fI can''t shake the feeling that I''m not alone here.'
+  - '&c&l[Thoughts] - &fFear and curiosity blend into one...'
+  - '&c&l[Thoughts] - &fCaution tells me it''s better to be on guard.'
+  - '&c&l[Thoughts] - &fThe world around me seems encrypted with mysterious signs.'
+  - '&c&l[Thoughts] - &fIs this really happening or just a product of my imagination?'
+  - '&c&l[Thoughts] - &fI''m lost in thought, but something is moving behind me...'
+  - '&c&l[Thoughts] - &fIn the silence, it feels like something is whispering somewhere...'
+  - '&c&l[Thoughts] - &fI caught a glimpse of a figure in the shadows... or did I imagine
+    it?'
+  - '&c&l[Thoughts] - &fWith each sound, I get closer to understanding what''s happening.'
+  - '&c&l[Thoughts] - &fThe sounds deserve attention... or is it just an illusion?'
+  - '&c&l[Thoughts] - &fThere''s something familiar about this sound, but what exactly?'
+  - '&c&l[Thoughts] - &fCaution fills the air, as if a storm is approaching.'
+  - '&c&l[Thoughts] - &fThe sound resonates in my soul... a strange feeling.'
+  - '&c&l[Thoughts] - &fCaution tells me that I''m not alone here...'
+  - '&c&l[Thoughts] - &fWhat is this sound that makes my heart race?'
+  - '&c&l[Thoughts] - &fMy thoughts seem to scatter, trying to decipher the situation.'
+  - '&c&l[Thoughts] - &fAre my feelings playing tricks on me, or is this truly something
+    unusual?'
+  - '&c&l[Thoughts] - &fThe world around me seems to hold its breath, waiting...'
+  - '&c&l[Thoughts] - &fI can''t deny the sense that I''m part of something bigger.'
+  - '&c&l[Thoughts] - &fThrough the sounds, there''s a message... but what is it exactly?'
+  - '&c&l[Thoughts] - &fA symphony of sounds conceals secrets...'
+  - '&c&l[Thoughts] - &fMy intuition tells me to be prepared for anything.'
+  - '&c&l[Thoughts] - &fThis moment seems to slow down because of the sounds around
+    me.'
+  - '&c&l[Thoughts] - &fI jumped at the strange noises, but what could it have been?'
+  - '&c&l[Thoughts] - &fThe sounds penetrate my consciousness, leaving a mark on my
+    soul...'
+  - '&c&l[Thoughts] - &fPerhaps, it''s worth getting closer and seeing it with my own
+    eyes.'
+  - '&c&l[Thoughts] - &fSomething tells me that these sounds are connected to a mystery.'
+  # Messages on how to use the command
+  Use-Command-Message:
+  - ''
+  - '&c&l[sScreamer] - &fUsage: &e/scream <player>'
+  - ''
+  # Messages when the player is not found on the server
+  Player-Not-Found-Message:
+  - ''
+  - '&c&l[sScreamer] - &fPlayer &e%player% &fnot found!'
+  - ''
+  # Messages when the player already has a screamer
+  Already-Spawn-Entity-Message:
+  - ''
+  - '&c&l[sScreamer] - &fPlayer &e%player% &fis already being scared!'
+  - ''
+  # Messages when the player does not have permission to summon a screamer for another player
+  Already-Spawn-Entity-Bypass-Message:
+  - ''
+  - '&c&l[sScreamer] - &fYou cannot summon a screamer for &e%player%&f! Use &e-bypass.'
+  - ''
+  # Messages when the player does not have permission to use -bypass
+  Already-Spawn-Entity-Args-Bypass-Message:
+  - ''
+  - '&c&l[sScreamer] - &fYou do not have permission to use &e-bypass.'
+  - ''
+  # Messages when a screamer is spawned for a player
+  Spawn-Entity-Message:
+  - ''
+  - '&c&l[sScreamer] - &fYou have scared &e%player%.'
+  - ''
+  # Messages when an incorrect entity type is specified
+  Entity-Type-Not-Found-Message:
+  - ''
+  - '&c&l[sScreamer] - Incorrect entity specified. You specified: %mob-type%'
+  - ''
+  # Message to be sent to the command sender upon successful configuration reload
+  Reload-Message:
+  - ''
+  - '&a[sScreamer] - Configuration reloaded!'
+  - ''
+  # Message to be sent to the command sender if they do not have permission to execute the reload command
+  Reload-No-Permission-Message:
+  - ''
+  - '&c&l[sScreamer] - &fYou do not have permission to use this command!'
+  - ''
+  # Message to be sent to the command sender if they do not have permission to execute the scream command
+  No-Permission-Message:
+  - ''
+  - '&c&l[sScreamer] - &fYou do not have permission to use this command!'
+  - ''
+  # Message displayed when a player tries to use the -bypass argument on another player who is protected in the config
+  No-Spawn-Player-Entity-Use-Command-Arg-Message:
+  - ''
+  - '&c&l[sScreamer] - &cPlayer &e%player% &cis protected from the &e-bypass &cargument
+    in the command!'
+  - ''
+  # Plugin enable message
+  Plugin-Enabled-Message:
+  - ''
+  - '&c&l[sScreamer] &8- &aPlugin enabled! %mc% ms'
+  - '&c&l[sScreamer] &8- &aThe server version: &b%server_version%'
+  - '&c&l[sScreamer] &8- &aJava version: &b%java_version_server% &8| &aHost: &b%os_version%'
+  - ''
+  # Plugin disable message
+  Plugin-Disabled-Message:
+  - ''
+  - '&c&l[sScreamer] &8- &cPlugin disabled! %mc% ms'
+  - ''
+  # Message indicating that the player has a cooldown on the command
+  # Defines the message format for the time remaining until the action is completed.
+  # Use the following variables to insert time:
+  #   - %days%: Number of days.
+  #   - %daysLabel%: Text representation of days (1 day, 2 days, 5 days).
+  #   - %hours%: Number of hours.
+  #   - %hoursLabel%: Text representation of hours (1 hour, 2 hours, 5 hours).
+  #   - %minutes%: Number of minutes.
+  #   - %minutesLabel%: Text representation of minutes (1 minute, 2 minutes, 5 minutes).
+  #   - %seconds%: Number of seconds.
+  #   - %secondsLabel%: Text representation of seconds (1 second, 2 seconds, 5 seconds).
+  Cooldown-Message:
+  - ''
+  - '&c&l[sScreamer] - &fPlease wait another &e%days% %daysLabel% %hours% %hoursLabel%
+    %minutes% %minutesLabel% %seconds% %secondsLabel% &fbefore using the command again.'
+  - ''
+  # Text representation for "day" when there is one day remaining.
+  Label-Day-1: day
+  # Text representation for "days" when there are two days remaining.
+  Label-Days-2: days
+  # Text representation for "days" when there are more than two days remaining.
+  Label-Days-3: days
+  # Text representation for "hour" when there is one hour remaining.
+  Label-Hour-1: hour
+  # Text representation for "hours" when there are two hours remaining.
+  Label-Hours-2: hours
+  # Text representation for "hours" when there are more than two hours remaining.
+  Label-Hours-3: hours
+  # Text representation for "minute" when there is one minute remaining.
+  Label-Minute-1: minute
+  # Text representation for "minutes" when there are two minutes remaining.
+  Label-Minutes-2: minutes
+  # Text representation for "minutes" when there are more than two minutes remaining.
+  Label-Minutes-3: minutes
+  # Text representation for "second" when there is one second remaining.
+  Label-Second-1: second
+  # Text representation for "seconds" when there are two seconds remaining.
+  Label-Seconds-2: seconds
+  # Text representation for "seconds" when there are more than two seconds remaining.
+  Label-Seconds-3: seconds
